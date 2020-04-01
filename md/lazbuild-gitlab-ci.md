@@ -47,4 +47,4 @@ You also don't have to rely on the `gitlab.com` infrastructure, but that rather 
 [ci]: https://en.wikipedia.org/wiki/Continuous_integration
 [job_artifacts]: https://docs.gitlab.com/ce/ci/pipelines/job_artifacts.html
 [inputlock.exe]: https://gitlab.com/profhound/inputlock/-/jobs/artifacts/master/raw/inputlock.exe?job=release
-[gitlab-on-ubuntu](https://www.linode.com/docs/development/version-control/install-gitlab-on-ubuntu-18-04/)
+[gitlab-on-ubuntu]: https://www.linode.com/docs/development/version-control/install-gitlab-on-ubuntu-18-04/
