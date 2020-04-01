@@ -8,6 +8,21 @@ We use a GitLab [Continuous Integration][ci] script to build our Windows 10 appl
 - [GitLab-Runner](https://docs.gitlab.com/runner/install/windows.html) - Cross platform task runner that will execute the script, we only focus on Windows.
 - The actual [`.gitlab-ci.yaml`](https://gitlab.com/profhound/inputlock/-/blob/master/.gitlab-ci.yml) script that tells gitlab what command to execute and what executable to upload as a [artifact](job_artifacts).
 
+### The Script
+
+```yaml
+stages:
+  - compile
+
+release:
+  stage: compile
+  script:
+    - c:\\lazarus\\Lazbuild.exe inputlock.lpi --build-mode=release
+  artifacts:
+    paths:
+      - inputlock.exe
+```
+
 ### Result
 
 After the artifact has been uploaded you can give your users the following example url to download your latest application:
