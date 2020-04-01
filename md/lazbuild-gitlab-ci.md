@@ -42,7 +42,7 @@ C:\Users\d-_-b>curl https://gitlab.com/profhound/inputlock/-/jobs/artifacts/mast
 
 Have your application look if there is a new executable and download it automatically. 
 
-You also don't have to rely on the `gitlab.com` infrastructure, but that rather [self-host][gitlab-on-ubuntu] on your own server.
+You also don't have to rely on the `gitlab.com` infrastructure, but rather [self-host][gitlab-on-ubuntu] on your own server.
 
 [ci]: https://en.wikipedia.org/wiki/Continuous_integration
 [job_artifacts]: https://docs.gitlab.com/ce/ci/pipelines/job_artifacts.html
