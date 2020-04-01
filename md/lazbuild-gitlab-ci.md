@@ -40,8 +40,11 @@ C:\Users\d-_-b>curl https://gitlab.com/profhound/inputlock/-/jobs/artifacts/mast
 
 ### Step Next
 
-Have your application look if there is a new executable and download it automatically...
+Have your application look if there is a new executable and download it automatically. 
+
+You also don't have to rely on the `gitlab.com` infrastructure, but that rather [self-host][gitlab-on-ubuntu] on your own server.
 
 [ci]: https://en.wikipedia.org/wiki/Continuous_integration
 [job_artifacts]: https://docs.gitlab.com/ce/ci/pipelines/job_artifacts.html
 [inputlock.exe]: https://gitlab.com/profhound/inputlock/-/jobs/artifacts/master/raw/inputlock.exe?job=release
+[gitlab-on-ubuntu](https://www.linode.com/docs/development/version-control/install-gitlab-on-ubuntu-18-04/)
