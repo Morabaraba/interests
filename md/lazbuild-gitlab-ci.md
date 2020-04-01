@@ -1,4 +1,4 @@
-## Continuous Integration and Deployment for Lazarus using Git on Windows 10
+## Continuous Integration and Deployment for Lazarus Applications using Git on Windows 10
 
 We use a GitLab [Continuous Integration][ci] script to build our Windows 10 application and deploy it to the internet for our users to download.
 
