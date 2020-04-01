@@ -59,7 +59,7 @@ todo.controller = function() {
 todo.view = function() {
     return m('div', [
         m("div.row", [
-            m("div.columns.six", [
+            /*m("div.columns.six", [
                 m('label','Suggestions, questions?'),
                 m("input[type=text][placeholder=Your email address].u-full-width", {
                     onchange: m.withAttr("value", todo.vm.description),
@@ -67,7 +67,7 @@ todo.view = function() {
                 }),
                  //<textarea class="u-full-width" placeholder="Hi Dave …" id="exampleMessage"></textarea>
                 m("textarea[placeholder=Your message].u-full-width")
-            ]),
+            ]),*/
             
         ]),
          m("div.row", [
