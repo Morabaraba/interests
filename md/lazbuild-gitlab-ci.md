@@ -6,7 +6,7 @@ We use a GitLab [Continuous Integration][ci] script to build our Windows 10 appl
 
 - [lazarus-ide](https://www.lazarus-ide.org/) - Our script depends on ` c:\\lazarus\\Lazbuild.exe` being installed on the system where you will register and run the GitLab-Runner.
 - [GitLab-Runner](https://docs.gitlab.com/runner/install/windows.html) - Cross platform task runner that will execute the script, we only focus on Windows.
-- The actual [`.gitlab-ci.yaml`](https://gitlab.com/profhound/inputlock/-/blob/master/.gitlab-ci.yml) script that tells gitlab what command to execute and what executable to upload as a [artifact](job_artifacts).
+- The actual [`.gitlab-ci.yaml`](https://gitlab.com/profhound/inputlock/-/blob/master/.gitlab-ci.yml) script that tells gitlab what command to execute and what executable to upload as a [artifact][job_artifacts].
 
 ### The Script
 
