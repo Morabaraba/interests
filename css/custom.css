@@ -1,0 +1,32 @@
+body {
+    background: rgb(255, 250, 233);
+    /* TODO fix hack to hide content on start */
+    display: none;
+}
+
+.header {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: -3%;
+    font-size: 8.0rem;
+    line-height: 1.2;
+    letter-spacing: -.1rem;
+}
+
+.header a {
+    color: #092700;
+}
+
+.footer {
+    font-size: 0.7em;
+}
+
+.send-yourself-copy {
+    float: right;
+    margin-top: 12px;
+}
+
+.container {
+  max-width: 1880px;
+}
+
