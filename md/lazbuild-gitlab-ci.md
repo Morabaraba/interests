@@ -1,6 +1,6 @@
 ## Continuous Integration and Deployment for Lazarus using Git on Windows 10
 
-We use a GitLab [Continuous Integration](ci) script to build our Windows 10 application and deploy it to the internet for our users to download.
+We use a GitLab [Continuous Integration][ci] script to build our Windows 10 application and deploy it to the internet for our users to download.
 
 ### Requirements
 
@@ -16,7 +16,7 @@ After the artifact has been uploaded you can give your users the following examp
 https://gitlab.com/<username>/<project_name>/-/jobs/artifacts/master/raw/<path_to_exe>?job=release
 ```
 
-For our example script you can download the latest executable as follow:
+For our example script you can download the [latest executable][inputlock.exe] as follow:
 
 ```
 C:\Users\d-_-b>curl https://gitlab.com/profhound/inputlock/-/jobs/artifacts/master/raw/inputlock.exe?job=release
